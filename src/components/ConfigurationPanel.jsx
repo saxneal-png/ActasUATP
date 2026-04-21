@@ -20,7 +20,7 @@ export default function ConfigurationPanel({ onConfigChanged }) {
     }
     
     // Configurar Email
-    const storedEmail = localStorage.getItem('UATP_EMAIL') || 'dionicio.flores@slepvallediguillin.gob.cl';
+    const storedEmail = localStorage.getItem('UATP_EMAIL') || 'mi@correo.cl';
     setConfigEmail(storedEmail);
     
     // Revisar si hay Nómina cargada
