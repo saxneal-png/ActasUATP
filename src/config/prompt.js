@@ -32,8 +32,8 @@ RESPONDE ÚNICA Y ESTRICTAMENTE CON UN JSON VÁLIDO CON LA SIGUIENTE ESTRUCTURA.
   "eventos": [
     {
       "titulo": "Título del evento",
-      "inicio": "YYYY-MM-DD",
-      "fin": "YYYY-MM-DD",
+      "inicio": "DD-MM-YYYY",
+      "fin": "DD-MM-YYY",
       "lugar": "Lugar o plataforma"
     }
   ]
