@@ -79,7 +79,7 @@ function App() {
   };
 
   const handleExportEmail = (data) => {
-    const defaultEmail = localStorage.getItem('UATP_EMAIL') || 'dionicio.flores@slepvallediguillin.gob.cl';
+    const defaultEmail = localStorage.getItem('UATP_EMAIL') || 'mi@correo.cl';
     const subject = `Resumen Bot UATP: Nueva Acta Procesada`;
     
     // Generar cuerpo del correo
